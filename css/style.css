@@ -1,0 +1,440 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar {
+    font-size: 11px; 
+    background-color: rgb(17, 30, 38);
+    padding: 8px 0;
+}
+
+.top-bar ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar li {
+    list-style: none;
+    margin-left: 3px;
+    display: inline;
+}
+
+.top-bar a{
+    color:rgb(91, 102, 115);
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: thin;
+    text-transform: uppercase;
+}
+
+.nav h1 {
+    margin: 0px;
+}
+
+.nav ul {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.main a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(17, 30, 38);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.main a:hover {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(255, 137, 3);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.a_bottom a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 18px;
+    
+    
+}
+
+
+.a_bottom a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.a_bottom a:hover {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(255, 137, 3);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.b_bottom a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+
+.b_bottom a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.b_bottom a:hover {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(255, 137, 3);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.c_bottom a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 48px;
+}
+
+
+.c_bottom a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(32, 52, 71);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.c_bottom a:hover {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(255, 137, 3);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.a_lists a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 28px;
+}
+
+
+.a_lists a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 28px;
+}
+
+.a_lists a:hover {
+    color: rgb(0, 47, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 28px;
+
+}
+
+.b_lists a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 24px;
+}
+
+
+.b_lists a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 24px;
+}
+
+.b_lists a:hover {
+    color: rgb(0, 47, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 24px;
+
+}
+
+.c_lists a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 20px;
+}
+
+
+.c_lists a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 20px;
+}
+
+.c_lists a:hover {
+    color: rgb(0, 47, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 20px;
+
+
+}
+
+.dots a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(144, 156, 170);
+    padding: 1px 10px;
+    line-height: 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.dots a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    line-height: 20px;
+}
+
+.dots a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(255, 137, 3);
+    padding: 1px 10px;
+    line-height: 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+.space {
+    margin-left: 390px;
+}
+
+.title {
+    margin-top: 10px;
+    font-family: none;
+}
+
+
+
+.logo {
+    margin-top: 5px;
+    
+}
+
+.photo {
+    margin: 2px;
+    border-radius: 20px;
+    margin-left: 0px
+}
+
+img.large {
+}
+
+
+.box1 {
+    border-style: solid;
+    border-top: rgb(222, 224, 224);
+    border-right-color:  rgb(222, 224, 224);
+    border-bottom:  rgb(222, 224, 224);
+    border-left:  rgb(222, 224, 224);
+    border-width: thin;
+    padding-right: 5px;
+}
+
+.box2 {
+    border-style: solid;
+    border-top: rgb(222, 224, 224);
+    border-right-color: rgb(222, 224, 224);
+    border-left-color: rgb(222, 224, 224);
+    border-bottom:  rgb(222, 224, 224);
+    border-left:  rgb(222, 224, 224);
+    border-width: thin;
+    padding-left: 0px;
+}
+
+.box3 {
+    border-style: solid;
+    border-top: rgb(222, 224, 224);
+    border-bottom:  rgb(222, 224, 224);
+    border-left:  rgb(222, 224, 224);
+    border-right: rgb(222, 224, 224);
+    border-width: thin;
+}
+
+
+.three {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.third {
+    margin-top: 20px;
+    margin-left: 180px;
+    border-style: solid;
+    border-top-color: rgb(222, 224, 224);
+    border-bottom:  rgb(222, 224, 224);
+    border-left:  rgb(222, 224, 224);
+    border-right: rgb(222, 224, 224);
+    border-width: thin;
+}
+
+.more {
+    margin-left: 0px;
+}
+
+.paragraph1 {
+    font-size: 11px;
+    margin-bottom: 50px
+}
+
+.paragraph2 {
+    font-size: 11px;
+    margin-bottom: 45px
+}
+
+.paragraph3 {
+    font-size: 11px;
+    margin-bottom: 45px
+}
+
+
+
+
+
+.a_paragraph {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(76, 93, 107);
+    font-weight: thin;
+    font-family: Arial;
+    line-height: 15px;
+    
+}
+
+.b_paragraph {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: rgb(76, 93, 107);
+    font-weight: thin;
+    font-family: Arial;
+    line-height: 15px;
+    
+}
+
+.bar {
+    color: rgb(91, 102, 115);
+}
+
+
+.foot { 
+    background: linear-gradient( to bottom, #345578 0%, #0e171f 75%); 
+    margin-top: 40px; 
+    padding-bottom: 50px; 
+}
+
+.bot{
+    list-style-image: url("../images/bullets.png");
+    padding-left: 18px;
+}
+
+
+
+.chat {
+    list-style-image: url("../images/chat.png");
+}
+
+.date1 {
+    list-style: none;
+    margin-top: -20px;
+}
+
+img.align-right {
+    float:left;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+.titles {
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(233, 231, 231);
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.news {
+    padding-left: 50px; 
+}
+
+
+.page {
+    background-color: rgb(240, 242, 242);
+}
+
+.b_bar {
+    background-color: black;
+    color: rgb(91, 102, 115);
+    font-size: 10px; 
+    font-style: arial;
+    width: 100%;
+    padding: 10px;
+}
